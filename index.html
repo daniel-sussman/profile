@@ -14,7 +14,7 @@
   <body>
     <div class="navbar d-flex justify-space-evenly pr-5">
       <span class="nav-spacer">
-        <h3><a href="/" class="scroll-link active"><i class="fa-solid fa-house ml-3"></i></a></h3>
+        <h3><a href="#home" class="scroll-link active"><i class="fa-solid fa-house ml-3"></i></a></h3>
       </span>
       <h3><a href="#about" class="scroll-link">About</a></h3>
       <h3><a href="#projects" class="scroll-link">Projects</a></h3>
@@ -23,161 +23,166 @@
     </div>
 
     <div class="container">
-      <div class="headline">
-        <div class="headline-text">
-          <h1>Hey, I'm Daniel,</h1>
-          <h2>a <span class="emphasize">full-stack web developer</span></h2>
-          <div class="align-items-end"><hr></div>
-          <h2>with a background in</h2>
-          <h2>teaching and languages</h2>
+      <section id="home">
+        <div class="headline">
+          <div class="headline-text">
+            <h1>Hey, I'm Daniel,</h1>
+            <h2>a <span class="emphasize">full-stack web developer</span></h2>
+            <div class="align-items-end"><hr></div>
+            <h2>with a background in</h2>
+            <h2>teaching and languages</h2>
+          </div>
+          <div>
+            <div class="img-profile"></div>
+          </div>
         </div>
-        <div>
-          <div class="img-profile">
+        <div class="scroll-down d-flex justify-content-center">
+          <h3>(<a href="#about">Scroll down</a> and I'll tell you more)</h3>
+        </div>
+      </section>
 
+      <section id="about">
+        <div class="info-card">
+          <div>
+            <h2 class="emphasize">A bit more about me:</h2>
+            <p>Hi there. I'm a history nerd, polyglot, father of two, full-stack web developer and a TA at <a href="https://www.lewagon.com/london" target="_blank" class="emphasize">Le Wagon London</a>. In December, I graduated from Le Wagon's 9-week intensive Web Development bootcamp, where I led a cross-functional team of four students in developing the <a href="#projects" class="emphasize">Hero app</a>, which delivers algorithm-based recommendations of kid-friendly activities in London. Prior to that, I worked as a researcher and translator and taught History and Classical Languages to young people. Original to the Pacific Northwest of North America, but I've also lived in Mexico City, Berlin and a few other places.<br><br>For more information, please <a class="emphasize" href="/resources/Daniel Sussman_CV.pdf" download>download my CV</a> or <a href="https://www.linkedin.com/in/d-sussman/" target="_blank" class="emphasize">connect on LinkedIn</a>.</p>
+            <h3><span class="emphasize">My development stack:</span></h3>
+            <div id="tech-stack" class="d-flex py-3">
+              <img src="https://skillicons.dev/icons?i=html,css,js,react,py,ruby,rails,figma,git,postgres" />
+            </div>
           </div>
         </div>
-      </div>
-      <div class="scroll-down d-flex justify-content-center">
-        <h3>(<a href="#about" class="scroll-link">Scroll down</a> and I'll tell you more)</h3>
-      </div>
+      </section>
 
-      <div id="about" class="spacer"></div>
-      <div class="info-card">
-        <div>
-          <h2 class="emphasize">A bit more about me:</h2>
-          <p>Hi there. I'm a history nerd, polyglot, father of two, full-stack web developer and a TA at <a href="https://www.lewagon.com/london" target="_blank" class="emphasize">Le Wagon London</a>. In December, I graduated from Le Wagon's 9-week intensive Web Development bootcamp, where I led a cross-functional team of four students in developing the <a href="#projects" class="emphasize scroll-link">Hero app</a>, which delivers algorithm-based recommendations of kid-friendly activities in London. Prior to that, I worked as a researcher and translator and taught History and Classical Languages to young people. Original to the Pacific Northwest of North America, but I've also lived in Mexico City, Berlin and a few other places.<br><br>For more information, please <a class="emphasize" href="/resources/Daniel Sussman_CV.pdf" download>download my CV</a> or <a href="https://www.linkedin.com/in/d-sussman/" target="_blank" class="emphasize">connect on LinkedIn</a>.</p>
-          <h3><span class="emphasize">My development stack:</span></h3>
-          <div id="tech-stack" class="d-flex py-3">
-            <img src="https://skillicons.dev/icons?i=html,css,js,react,py,ruby,rails,figma,git,postgres" />
-          </div>
-        </div>
-      </div>
-      <div id="projects" class="sub-header"><h2 class="emphasize">Here are a few of my recent projects:</h2></div>
-      <div class="card-container">
-        <div class="card">
-          <div class="img-container">
-            <img src="images/hero1.png" alt="Hero screenshot 1">
-            <img src="images/hero2.png" alt="Hero screenshot 2">
-            <img src="images/hero3.png" alt="Hero screenshot 3">
-          </div>
-          <div class="card-text">
-            <h3>Hero</h3>
-            <p>A phone app to help parents find London activities their kids will love.</p>
-            <div class="skill-icons-small mb-3">
-              <img src="https://skillicons.dev/icons?i=rails,js,py,postgres" />
+      <section id="projects">
+        <div class="sub-header"><h2 class="emphasize">Here are a few of my recent projects:</h2></div>
+        <div class="card-container">
+          <div class="card">
+            <div class="img-container">
+              <img src="images/hero1.png" alt="Hero screenshot 1">
+              <img src="images/hero2.png" alt="Hero screenshot 2">
+              <img src="images/hero3.png" alt="Hero screenshot 3">
             </div>
-            <div class="w-100 d-flex justify-content-between">
-              <p><a href="https://www.hero-app.uk" target="_blank" class="emphasize">TRY IT OUT</a></p>
-              <p><a href="https://github.com/daniel-sussman/hero" target="_blank" class="emphasize">VIEW CODE</a></p>
+            <div class="card-text">
+              <h3>Hero</h3>
+              <p>A phone app to help parents find London activities their kids will love.</p>
+              <div class="skill-icons-small mb-3">
+                <img src="https://skillicons.dev/icons?i=rails,js,py,postgres" />
+              </div>
+              <div class="w-100 d-flex justify-content-between">
+                <p><a href="https://www.hero-app.uk" target="_blank" class="emphasize">TRY IT OUT</a></p>
+                <p><a href="https://github.com/daniel-sussman/hero" target="_blank" class="emphasize">VIEW CODE</a></p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="img-background">
-            <img src="images/footsie.png" alt="Footsie screenshot" id="footsie">
-          </div>
-          <div class="card-text">
-            <h3>Footsie</h3>
-            <p>A social platform to connect recreational footballers.</p>
-            <div class="skill-icons-small mb-3">
-              <img src="https://skillicons.dev/icons?i=rails,js,postgres" />
+          <div class="card">
+            <div class="img-background">
+              <img src="images/footsie.png" alt="Footsie screenshot" id="footsie">
             </div>
-            <div class="w-100 d-flex justify-content-between">
-              <p><a href="https://footsie-7fb2ed1661e2.herokuapp.com" target="_blank" class="emphasize">VIEW PROJECT</a></p>
-              <p><a href="https://github.com/daniel-sussman/footsie" target="_blank" class="emphasize">VIEW CODE</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="img-background">
-            <img src="images/minesweeper.png" alt="Minesweeper screenshot" id="minesweeper">
-          </div>
-          <div class="card-text">
-            <h3>Minesweeper</h3>
-            <p>Left-click to clear tiles, right-click to place flags / reveal safe tiles.</p>
-            <div class="skill-icons-small mb-3">
-              <img src="https://skillicons.dev/icons?i=html,css,js" />
-            </div>
-            <div class="w-100 d-flex justify-content-between">
-              <p><a href="https://daniel-sussman.github.io/minesweeper/" target="_blank" class="emphasize">PLAY MINESWEEPER</a></p>
-              <p><a href="https://github.com/daniel-sussman/minesweeper" target="_blank" class="emphasize">VIEW CODE</a></p>
+            <div class="card-text">
+              <h3>Footsie</h3>
+              <p>A social platform to connect recreational footballers.</p>
+              <div class="skill-icons-small mb-3">
+                <img src="https://skillicons.dev/icons?i=rails,js,postgres" />
+              </div>
+              <div class="w-100 d-flex justify-content-between">
+                <p><a href="https://footsie-7fb2ed1661e2.herokuapp.com" target="_blank" class="emphasize">VIEW PROJECT</a></p>
+                <p><a href="https://github.com/daniel-sussman/footsie" target="_blank" class="emphasize">VIEW CODE</a></p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="img-background">
-            <img src="images/calculator.png" alt="Calculator screenshot">
-          </div>
-          <div class="card-text">
-            <h3>Digital calculator</h3>
-            <p>A simple but accurate calculator, programmed in React.js.</p>
-            <div class="skill-icons-small mb-3">
-              <img src="https://skillicons.dev/icons?i=js,react" />
+          <div class="card">
+            <div class="img-background">
+              <img src="images/minesweeper.png" alt="Minesweeper screenshot" id="minesweeper">
             </div>
-            <div class="w-100 d-flex justify-content-between">
-              <p><a href="https://digital-calculator-sigma.vercel.app/" target="_blank" class="emphasize">TRY IT OUT</a></p>
-              <p><a href="https://github.com/daniel-sussman/digital-calculator" target="_blank" class="emphasize">VIEW CODE</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="img-background">
-            <img src="images/drum_machine.png" alt="Drum Machine screenshot">
-          </div>
-          <div class="card-text">
-            <h3>Drum machine</h3>
-            <p>Play the drums using your keyboard. Turn the volume up!</p>
-            <div class="skill-icons-small mb-3">
-              <img src="https://skillicons.dev/icons?i=js,react" />
-            </div>
-            <div class="w-100 d-flex justify-content-between">
-              <p><a href="https://drum-machine-six-xi.vercel.app/" target="_blank" class="emphasize">TRY IT OUT</a></p>
-              <p><a href="https://github.com/daniel-sussman/drum-machine" target="_blank" class="emphasize">VIEW CODE</a></p>
+            <div class="card-text">
+              <h3>Minesweeper</h3>
+              <p>Left-click to clear tiles, right-click to place flags / reveal safe tiles.</p>
+              <div class="skill-icons-small mb-3">
+                <img src="https://skillicons.dev/icons?i=html,css,js" />
+              </div>
+              <div class="w-100 d-flex justify-content-between">
+                <p><a href="https://daniel-sussman.github.io/minesweeper/" target="_blank" class="emphasize">PLAY MINESWEEPER</a></p>
+                <p><a href="https://github.com/daniel-sussman/minesweeper" target="_blank" class="emphasize">VIEW CODE</a></p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="img-background">
-            <img src="images/aoc_2023.png" alt="Screenshot of some Ruby code">
-          </div>
-          <div class="card-text">
-            <h3>Advent of Code 2023</h3>
-            <p>Managed 43/50 stars this time around.</p>
-            <div class="skill-icons-small mb-3">
-              <img src="https://skillicons.dev/icons?i=ruby" />
-              <img class="skill-icon-small" src="images/rspec.png">
+          <div class="card">
+            <div class="img-background">
+              <img src="images/calculator.png" alt="Calculator screenshot">
             </div>
-            <div class="w-100 d-flex justify-content-between">
-              <p><a href="https://adventofcode.com/2023/about" target="_blank" class="emphasize">WHAT'S THIS?</a></p>
-              <p><a href="https://github.com/daniel-sussman/aoc_2023" target="_blank" class="emphasize">VIEW CODE</a></p>
+            <div class="card-text">
+              <h3>Digital calculator</h3>
+              <p>A simple but accurate calculator, programmed in React.js.</p>
+              <div class="skill-icons-small mb-3">
+                <img src="https://skillicons.dev/icons?i=js,react" />
+              </div>
+              <div class="w-100 d-flex justify-content-between">
+                <p><a href="https://digital-calculator-sigma.vercel.app/" target="_blank" class="emphasize">TRY IT OUT</a></p>
+                <p><a href="https://github.com/daniel-sussman/digital-calculator" target="_blank" class="emphasize">VIEW CODE</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-background">
+              <img src="images/drum_machine.png" alt="Drum Machine screenshot">
+            </div>
+            <div class="card-text">
+              <h3>Drum machine</h3>
+              <p>Play the drums using your keyboard. Turn the volume up!</p>
+              <div class="skill-icons-small mb-3">
+                <img src="https://skillicons.dev/icons?i=js,react" />
+              </div>
+              <div class="w-100 d-flex justify-content-between">
+                <p><a href="https://drum-machine-six-xi.vercel.app/" target="_blank" class="emphasize">TRY IT OUT</a></p>
+                <p><a href="https://github.com/daniel-sussman/drum-machine" target="_blank" class="emphasize">VIEW CODE</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-background">
+              <img src="images/aoc_2023.png" alt="Screenshot of some Ruby code">
+            </div>
+            <div class="card-text">
+              <h3>Advent of Code 2023</h3>
+              <p>Managed 43/50 stars this time around.</p>
+              <div class="skill-icons-small mb-3">
+                <img src="https://skillicons.dev/icons?i=ruby" />
+                <img class="skill-icon-small" src="images/rspec.png">
+              </div>
+              <div class="w-100 d-flex justify-content-between">
+                <p><a href="https://adventofcode.com/2023/about" target="_blank" class="emphasize">WHAT'S THIS?</a></p>
+                <p><a href="https://github.com/daniel-sussman/aoc_2023" target="_blank" class="emphasize">VIEW CODE</a></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div id="contact" class="spacer"></div>
-      <div class="info-card mb-5">
-        <div>
-          <h2 class="emphasize mb-5">Get in touch!</h2>
-          <ul class="list-inline">
-            <li class="icon-xbig">
-              <a href="mailto:daniel.o.sussman@gmail.com" target="_blank">
-                <i class="fa-solid fa-envelope"></i>
-              </a>
-            </li>
-            <li class="icon-big">
-              <a href="https://www.linkedin.com/in/d-sussman/" target="_blank">
-                <i class="fa-brands fa-linkedin fa-xl"></i>
-              </a>
-            </li>
-            <li class="icon-big">
-              <a href="https://github.com/daniel-sussman/" target="_blank">
-                <i class="fa-brands fa-square-github fa-xl"></i>
-              </a>
-            </li>
-          </ul>
+      <section id="contact">
+        <div class="info-card mb-5">
+          <div>
+            <h2 class="emphasize mb-5">Get in touch!</h2>
+            <ul class="list-inline">
+              <li class="icon-xbig">
+                <a href="mailto:daniel.o.sussman@gmail.com" target="_blank">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+              </li>
+              <li class="icon-big">
+                <a href="https://www.linkedin.com/in/d-sussman/" target="_blank">
+                  <i class="fa-brands fa-linkedin fa-xl"></i>
+                </a>
+              </li>
+              <li class="icon-big">
+                <a href="https://github.com/daniel-sussman/" target="_blank">
+                  <i class="fa-brands fa-square-github fa-xl"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </section>
     </div>
 
     <script src="lib/scroller.js"></script>
