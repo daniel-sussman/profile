@@ -12,14 +12,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="navbar d-flex justify-space-evenly">
+    <div class="navbar d-flex justify-space-evenly pr-5">
       <span class="nav-spacer">
-        <h3><a href="/" class="active"><i class="fa-solid fa-house ml-3"></i></a></h3>
+        <h3><a href="/" class="scroll-link active"><i class="fa-solid fa-house ml-3"></i></a></h3>
       </span>
-      <h3><a href="#about">About</a></h3>
-      <h3><a href="#projects">Projects</a></h3>
+      <h3><a href="#about" class="scroll-link">About</a></h3>
+      <h3><a href="#projects" class="scroll-link">Projects</a></h3>
       <h3><a href="/resources/Daniel Sussman_CV.pdf" download>CV</a></h3>
-      <h3><a href="#contact">Contact Me</a></h3>
+      <h3><a href="#contact" class="scroll-link">Contact Me</a></h3>
     </div>
 
     <div class="container">
@@ -38,14 +38,14 @@
         </div>
       </div>
       <div class="scroll-down d-flex justify-content-center">
-        <h3>(Scroll down and I'll tell you more)</h3>
+        <h3>(<a href="#about" class="scroll-link">Scroll down</a> and I'll tell you more)</h3>
       </div>
 
       <div id="about" class="spacer"></div>
       <div class="info-card">
         <div>
           <h2 class="emphasize">A bit more about me:</h2>
-          <p>Hi there. I'm a history nerd, polyglot, father of two, full-stack web developer and a TA at <a href="https://www.lewagon.com/london" target="_blank" class="emphasize">Le Wagon London</a>. In December, I graduated from Le Wagon's 9-week intensive Web Development bootcamp, where I led a cross-functional team of four students in developing the <a href="#projects" class="emphasize">Hero app</a>, which delivers algorithm-based recommendations of kid-friendly activities in London. Prior to that, I worked as a researcher and translator and taught History and Classical Languages. Original to the Pacific Northwest of North America, but I've also lived in Mexico City, Berlin and a few other places.<br><br>For more information, please <a class="emphasize" href="/resources/Daniel Sussman_CV.pdf" download>download my CV</a> or <a href="https://www.linkedin.com/in/d-sussman/" target="_blank" class="emphasize">connect on LinkedIn</a>.</p>
+          <p>Hi there. I'm a history nerd, polyglot, father of two, full-stack web developer and a TA at <a href="https://www.lewagon.com/london" target="_blank" class="emphasize">Le Wagon London</a>. In December, I graduated from Le Wagon's 9-week intensive Web Development bootcamp, where I led a cross-functional team of four students in developing the <a href="#projects" class="emphasize scroll-link">Hero app</a>, which delivers algorithm-based recommendations of kid-friendly activities in London. Prior to that, I worked as a researcher and translator and taught History and Classical Languages to young people. Original to the Pacific Northwest of North America, but I've also lived in Mexico City, Berlin and a few other places.<br><br>For more information, please <a class="emphasize" href="/resources/Daniel Sussman_CV.pdf" download>download my CV</a> or <a href="https://www.linkedin.com/in/d-sussman/" target="_blank" class="emphasize">connect on LinkedIn</a>.</p>
           <h3><span class="emphasize">My development stack:</span></h3>
           <div id="tech-stack" class="d-flex py-3">
             <img src="https://skillicons.dev/icons?i=html,css,js,react,py,ruby,rails,figma,git,postgres" />
@@ -179,5 +179,7 @@
         </div>
       </div>
     </div>
+
+    <script src="lib/scroller.js"></script>
   </body>
 </html>

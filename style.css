@@ -200,6 +200,9 @@
     font-size: 10px;
   }
 
+  .nav-spacer {
+    width: 30vw !important;
+  }
   .headline {
   height: 40vh;
   margin: 20vh auto;
@@ -289,7 +292,7 @@ h1, h2, h3 {
   justify-content: space-evenly;
   align-items: center;
   height: 40vh;
-  margin: 30vh auto;
+  margin: 24vh auto;
 }
 
 .headline-text hr {
