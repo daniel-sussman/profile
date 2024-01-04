@@ -89,7 +89,9 @@
   .headline-text hr {
     width: 408px;
   }
-
+  .scroll-down {
+    margin-bottom: 10vh;
+  }
   .img-profile {
     height: 12rem;
     width: 12rem;
@@ -141,7 +143,9 @@
   p {
     font-size: 12px;
   }
-
+  .scroll-down {
+    margin-bottom: 10vh;
+  }
   .card-text p {
     font-size: 12px;
   }
@@ -199,17 +203,25 @@
   p {
     font-size: 10px;
   }
-
+  .navbar {
+    height: 2rem !important;
+    border-bottom: 2px solid var(--text-color);
+  }
   .nav-spacer {
     width: 30vw !important;
   }
+  section {
+    padding: 3rem 0 0 !important;
+  }
   .headline {
-  margin: 20vh auto;
-}
+    margin: 20vh auto;
+  }
   .headline-text hr {
     width: 192px;
   }
-
+  .scroll-down {
+    margin-bottom: 10vh;
+  }
   .img-profile {
     height: 6rem;
     width: 6rem;
