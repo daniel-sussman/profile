@@ -204,8 +204,9 @@
     font-size: 10px;
   }
   .navbar {
-    height: 2rem !important;
-    border-bottom: 2px solid var(--text-color);
+    height: 2.8rem !important;
+    border-bottom: 2px solid var(--text-color) !important;
+    padding-right: 1rem !important;
   }
   .nav-spacer {
     width: 30vw !important;
@@ -227,6 +228,7 @@
     width: 6rem;
     top: 0.4rem;
     left: 0.6rem !important;
+    border: 1px solid var(--violet-color) !important;
   }
   .img-background {
     height: 180px;
@@ -292,6 +294,7 @@ h1, h2, h3 {
   border-bottom: 3px solid var(--text-color);
   width: 100vw;
   height: 5rem;
+  padding-right: 3rem;
   position: fixed;
   top: 0;
   z-index: 1;
