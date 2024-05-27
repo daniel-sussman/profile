@@ -212,13 +212,23 @@
   .scroll-down {
     margin-bottom: 10vh;
   }
+
+  /* PROFILE IS FLEX-COLUMN-REVERSE */
   .img-profile {
-    height: 6rem;
-    width: 6rem;
-    top: 0.4rem;
-    left: 0.6rem !important;
+    height: 8rem;
+    width: 8rem;
+    margin-bottom: 2rem !important;
+    top: 0  !important;
+    left: 0 !important;
     border: 1px solid var(--violet-color) !important;
   }
+  .headline {
+    flex-direction: column-reverse;
+  }
+  .headline-text {
+    text-align: center;
+  }
+
   .img-background {
     height: 180px;
   }
