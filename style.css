@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
 
 @media (min-width: 961px) {
-  /* For a screen < 960px, this CSS will be read */
+  /* For a screen > 960px, this CSS will be read */
   h1 {
     font-size: 68px;
     font-weight: 700;
@@ -20,6 +20,10 @@
 
   p {
     font-size: 22px;
+  }
+
+  .card {
+    min-width: calc(33.333% - 30px); /* 3 cards per view with 15px margin on desktop */
   }
 
   .card-text p {
@@ -98,7 +102,7 @@
     height: 218px;
   }
   .card {
-    height: 450px !important;
+    min-width: calc(50% - 30px); /* 2 cards per view on medium screens */
   }
   .icon-big {
     font-size: 3rem;
@@ -136,6 +140,9 @@
   .scroll-down {
     margin-bottom: 10vh;
   }
+  .card {
+    min-width: calc(100% - 30px); /* 1 card per view on small screens */
+  }
   .card-text p {
     font-size: 12px;
   }
@@ -147,9 +154,6 @@
   .img-profile {
     height: 12rem;
     width: 12rem;
-  }
-  .card {
-    height: 384px !important;
   }
   #tech-stack img {
     width: 100%;
@@ -366,7 +370,6 @@ section {
   padding: 7rem 0 0;
 }
 
-
 /* PROJECTS CAROUSEL */
 .carousel-wrapper {
   position: relative;
@@ -376,6 +379,7 @@ section {
   width: 100%;
 }
 .card-view-wrapper {
+  width: 100%;
   display: flex;
   transition: transform 0.3s ease-in-out;
 }
@@ -399,7 +403,7 @@ section {
 
 /* PROJECT CARDS */
 .card {
-  min-width: calc(33.333% - 30px); /* 3 cards per view with 15px margin */
+  max-height: 80vh;
   margin: 15px;
   border-radius: 16px;
   border: 3px solid var(--violet-color);
