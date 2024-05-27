@@ -174,23 +174,23 @@
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   h1 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     margin: 0 auto 0.5em;
   }
 
   h2 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     margin: 0 auto;
   }
 
   h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .navbar {
     height: 2.8rem !important;
