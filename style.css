@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
 
-@media (min-width: 961px) {
-  /* For a screen > 960px, this CSS will be read */
+@media (min-width: 993px) {
+  /* For a screen > 992px, this CSS will be read */
   h1 {
     font-size: 68px;
     font-weight: 700;
@@ -30,8 +30,14 @@
     font-size: 16px;
   }
 
+  .headline-text {
+    position: relative;
+  }
+
   .headline-text hr {
-    width: 562px;
+    width: 408px;
+    position: absolute;
+    left: 40px;
   }
 
   .img-profile {
@@ -59,8 +65,8 @@
   }
 }
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
+@media (max-width: 992px) {
+  /* For a screen <= 992px, this CSS will be read */
   h1 {
     font-size: 48px;
     font-weight: 700;
@@ -85,8 +91,13 @@
     font-size: 16px;
   }
 
+  .headline-text {
+    position: relative;
+  }
   .headline-text hr {
-    width: 408px;
+    width: 300px;
+    position: absolute;
+    left: 28px;
   }
   .scroll-down {
     margin-bottom: 10vh;
@@ -116,7 +127,7 @@
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 767px) {
   /* For a screen < 720px, this CSS will be read */
   h1 {
     font-size: 32px;
@@ -147,8 +158,13 @@
     font-size: 12px;
   }
 
+  .headline-text {
+    position: relative;
+  }
   .headline-text hr {
-    width: 192px;
+    width: 188px;
+    position: absolute;
+    left: 18px;
   }
 
   .img-profile {
@@ -222,10 +238,13 @@
   .headline-text {
     text-align: center;
     margin-bottom: 24px;
+    position: relative;
   }
   .headline-text hr {
-    width: 202px;
+    width: 150px;
     margin-top: -4px !important;
+    position: absolute;
+    left: 22px;
   }
   .headline-text h1 {
     font-size: 28px;
