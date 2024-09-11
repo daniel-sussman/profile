@@ -30,13 +30,8 @@
     font-size: 16px;
   }
 
-  .headline-text {
-    position: relative;
-  }
-
   .headline-text hr {
     width: 408px;
-    position: absolute;
     left: 40px;
   }
 
@@ -91,12 +86,8 @@
     font-size: 16px;
   }
 
-  .headline-text {
-    position: relative;
-  }
   .headline-text hr {
     width: 300px;
-    position: absolute;
     left: 28px;
   }
   .scroll-down {
@@ -158,12 +149,8 @@
     font-size: 12px;
   }
 
-  .headline-text {
-    position: relative;
-  }
   .headline-text hr {
     width: 188px;
-    position: absolute;
     left: 18px;
   }
 
@@ -238,12 +225,10 @@
   .headline-text {
     text-align: center;
     margin-bottom: 24px;
-    position: relative;
   }
   .headline-text hr {
     width: 150px;
     margin-top: -4px !important;
-    position: absolute;
     left: 22px;
   }
   .headline-text h1 {
@@ -335,8 +320,13 @@ h1, h2, h3 {
   margin: 24vh auto;
 }
 
+.headline-text {
+  position: relative;
+}
+
 .headline-text hr {
   margin: 0 4px 0 auto;
+  position: absolute;
   border-top: 3px solid var(--violet-color);
 }
 
